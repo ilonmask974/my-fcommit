@@ -1,0 +1,3 @@
+count = Number(localStorage.getItem("counter")) || 0;
+document.getElementById("counter").textContent = count;
+
