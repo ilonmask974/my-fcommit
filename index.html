@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mini Counter App</title>
+</head>
+<body>
+  <h1>Mini Counter App</h1>
+
+  <p id="counter">0</p>
+
+  <button onclick="increase()">Increase</button>
+
+  <script>
+    let count = 0;
+
+    function increase() {
+      count++;
+      document.getElementById("counter").textContent = count;
+    }
+  </script>
+</body>
+</html>
