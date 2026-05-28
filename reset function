@@ -1,0 +1,4 @@
+function resetCounter() {
+  count = 0;
+  document.getElementById("counter").textContent = count;
+}
